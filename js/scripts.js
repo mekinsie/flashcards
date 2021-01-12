@@ -1,6 +1,8 @@
 $(document).ready(function() {
-  $("p").click(function(){
-    $("card-front").hide();
-    $("card-back").show();
+  $(".card-front").click(function(){
+    $(".card-front").toggle();
+    $(".card-back").toggle();
   });
+
+ 
 });
