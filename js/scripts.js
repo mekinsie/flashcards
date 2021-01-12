@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".card-front").click(function(){
+  $(".clickable").click(function(){
     $(".card-front").toggle();
     $(".card-back").toggle();
   });
